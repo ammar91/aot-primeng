@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "name": "Invoicing",
+  "private": true,
+  "scripts": {
+    "ngc": "ngc -p ./tsconfig.aot.json",
+    "start": "npm run webpack && npm run lite",
+    "lite": "lite-server",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.1",
+    "@angular/compiler": "2.0.1",
+    "@angular/compiler-cli": "0.6.3",
+    "@angular/core": "2.0.1",
+    "@angular/forms": "2.0.1",
+    "@angular/http": "2.0.1",
+    "@angular/platform-browser": "2.0.1",
+    "@angular/platform-browser-dynamic": "2.0.1",
+    "@angular/platform-server": "2.0.1",
+    "@angular/router": "3.0.1",
+    "angular2-in-memory-web-api": "0.0.21",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25",
+    "primeng": "1.0.0-beta.17",
+    "font-awesome": "4.6.3"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/fullcalendar": "^2.7.32",
+    "@types/jquery": "^2.0.32",
+    "@types/node": "^6.0.42",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "webpack": "2.1.0-beta.25",
+    "webpack-merge": "^0.14.1",
+    "lite-server": "^2.2.2"
+  }
+}
